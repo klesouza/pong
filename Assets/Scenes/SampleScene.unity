@@ -256,7 +256,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 17351d0367c263446997ac62e8dd4890, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scoreText: {fileID: 1834859899}
+  scoreText: {fileID: 1300789032}
   gameController: {fileID: 1980345937}
 --- !u!212 &319991232
 SpriteRenderer:
@@ -771,7 +771,7 @@ Transform:
   m_LocalScale: {x: 1, y: 20, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
 --- !u!1 &1300789030
 GameObject:
@@ -785,7 +785,7 @@ GameObject:
   - component: {fileID: 1300789033}
   - component: {fileID: 1300789032}
   m_Layer: 5
-  m_Name: Text (1)
+  m_Name: TextScoreRight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -882,7 +882,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 17351d0367c263446997ac62e8dd4890, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scoreText: {fileID: 1300789032}
+  scoreText: {fileID: 1834859899}
   gameController: {fileID: 1980345937}
 --- !u!61 &1489982409
 BoxCollider2D:
@@ -972,7 +972,7 @@ Transform:
   m_LocalScale: {x: 1, y: 8.5, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1639588389
 GameObject:
@@ -1271,7 +1271,7 @@ Transform:
   m_LocalScale: {x: 0.90283936, y: 3.9148169, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &1666218363
 BoxCollider2D:
@@ -1405,7 +1405,7 @@ Transform:
   m_LocalScale: {x: 1, y: 20, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
 --- !u!1 &1834859897
 GameObject:
@@ -1419,7 +1419,7 @@ GameObject:
   - component: {fileID: 1834859900}
   - component: {fileID: 1834859899}
   m_Layer: 5
-  m_Name: Text
+  m_Name: TextScoreLeft
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1578,7 +1578,7 @@ RectTransform:
   - {fileID: 1834859898}
   - {fileID: 1300789031}
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
