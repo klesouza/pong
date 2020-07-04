@@ -27,10 +27,4 @@ public class BallMovement : MonoBehaviour
         if(Time.fixedDeltaTime % 6 == 0)
             rigidbody2D.velocity *= (1+speedIncrease);
     }
-
-    private void OnCollisionEnter2D(Collision2D collision)
-    {
-        //Debug.Log($"Ball bounced {collision.collider.name}");
-
-    }
 }
